@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E33335F289527680058C0E4 /* Answer in Frameworks */ = {isa = PBXBuildFile; productRef = 1E33335E289527680058C0E4 /* Answer */; };
+		1E333361289530300058C0E4 /* Answer in Frameworks */ = {isa = PBXBuildFile; productRef = 1E333360289530300058C0E4 /* Answer */; };
+		1E333363289530330058C0E4 /* Answer in Frameworks */ = {isa = PBXBuildFile; productRef = 1E333362289530330058C0E4 /* Answer */; };
+		1E3333652895303A0058C0E4 /* Answer in Frameworks */ = {isa = PBXBuildFile; productRef = 1E3333642895303A0058C0E4 /* Answer */; };
 		CB0D88A2288279C800E61609 /* SwiftUIWeeklyLayoutChallenge in Frameworks */ = {isa = PBXBuildFile; productRef = CB0D88A1288279C800E61609 /* SwiftUIWeeklyLayoutChallenge */; };
 		CB0D88A4288279D200E61609 /* SwiftUIWeeklyLayoutChallenge in Frameworks */ = {isa = PBXBuildFile; productRef = CB0D88A3288279D200E61609 /* SwiftUIWeeklyLayoutChallenge */; };
 		CB0D88A6288279D900E61609 /* SwiftUIWeeklyLayoutChallenge in Frameworks */ = {isa = PBXBuildFile; productRef = CB0D88A5288279D900E61609 /* SwiftUIWeeklyLayoutChallenge */; };
@@ -68,6 +72,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1EF9977B2895263A006787C6 /* Answer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Answer; sourceTree = "<group>"; };
 		CB5D43372881C744001B5EA1 /* SwiftUIWeeklyLayoutChallenge */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SwiftUIWeeklyLayoutChallenge; sourceTree = "<group>"; };
 		CB5D434C2881D4DB001B5EA1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CB5D43552881DAD1001B5EA1 /* watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = watchOS.plist; sourceTree = "<group>"; };
@@ -88,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E33335F289527680058C0E4 /* Answer in Frameworks */,
 				CB0D88A2288279C800E61609 /* SwiftUIWeeklyLayoutChallenge in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E333361289530300058C0E4 /* Answer in Frameworks */,
 				CB0D88A4288279D200E61609 /* SwiftUIWeeklyLayoutChallenge in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E3333652895303A0058C0E4 /* Answer in Frameworks */,
 				CB0D88A8288279E200E61609 /* SwiftUIWeeklyLayoutChallenge in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E333363289530330058C0E4 /* Answer in Frameworks */,
 				CB0D88A6288279D900E61609 /* SwiftUIWeeklyLayoutChallenge in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				CB5D434C2881D4DB001B5EA1 /* README.md */,
+				1EF9977B2895263A006787C6 /* Answer */,
 				CB5D43372881C744001B5EA1 /* SwiftUIWeeklyLayoutChallenge */,
 				CB5D43542881DAD1001B5EA1 /* Configuration */,
 				CB7F7AF7287DEEC600E789D3 /* Products */,
@@ -180,6 +190,7 @@
 			name = "iOS App";
 			packageProductDependencies = (
 				CB0D88A1288279C800E61609 /* SwiftUIWeeklyLayoutChallenge */,
+				1E33335E289527680058C0E4 /* Answer */,
 			);
 			productName = "SwiftUIWeeklyLayoutChallenge (iOS)";
 			productReference = CB7F7AF6287DEEC600E789D3 /* SwiftUIWeeklyLayoutChallengeApp.app */;
@@ -200,6 +211,7 @@
 			name = "macOS App";
 			packageProductDependencies = (
 				CB0D88A3288279D200E61609 /* SwiftUIWeeklyLayoutChallenge */,
+				1E333360289530300058C0E4 /* Answer */,
 			);
 			productName = "SwiftUIWeeklyLayoutChallenge (macOS)";
 			productReference = CB7F7AFC287DEEC600E789D3 /* SwiftUIWeeklyLayoutChallengeApp.app */;
@@ -254,6 +266,7 @@
 			name = "watchOS WatchKit Extension";
 			packageProductDependencies = (
 				CB0D88A7288279E200E61609 /* SwiftUIWeeklyLayoutChallenge */,
+				1E3333642895303A0058C0E4 /* Answer */,
 			);
 			productName = "SwiftUIWeeklyLayoutChallenge (watchOS) WatchKit Extension";
 			productReference = CB7F7B1D287DEEF800E789D3 /* watchOS WatchKit Extension.appex */;
@@ -274,6 +287,7 @@
 			name = "tvOS App";
 			packageProductDependencies = (
 				CB0D88A5288279D900E61609 /* SwiftUIWeeklyLayoutChallenge */,
+				1E333362289530330058C0E4 /* Answer */,
 			);
 			productName = "SwiftUIWeeklyLayoutChallenge (tvOS)";
 			productReference = CB7F7B41287DF16600E789D3 /* SwiftUIWeeklyLayoutChallengeApp.app */;
@@ -939,6 +953,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1E33335E289527680058C0E4 /* Answer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Answer;
+		};
+		1E333360289530300058C0E4 /* Answer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Answer;
+		};
+		1E333362289530330058C0E4 /* Answer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Answer;
+		};
+		1E3333642895303A0058C0E4 /* Answer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Answer;
+		};
 		CB0D88A1288279C800E61609 /* SwiftUIWeeklyLayoutChallenge */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SwiftUIWeeklyLayoutChallenge;

@@ -7,12 +7,13 @@
 
 import SwiftUI
 import SwiftUIWeeklyLayoutChallenge
+import Answer
 
 @main
 struct SwiftUIWeeklyLayoutChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Answer.ContentView()
         }
     }
 }
