@@ -117,10 +117,8 @@ final class LightSwitcher: ObservableObject {
     }
 
     func apply(_ signal: Signal?) {
-        withAnimation {
-            for i in 0..<items.count {
-                items[i].light = signal?.pattern[i] ?? .消
-            }
+        for i in 0..<items.count {
+            items[i].light = signal?.pattern[i] ?? .消
         }
     }
 }
@@ -194,7 +192,7 @@ struct DepartureSignal: View {
         HStack {
             Text(verbatim: item.wrappedValue.name)
             Spacer()
-            Picker("", selection: item.light.animation()) {
+            Picker("", selection: item.light) {
                 ForEach(item.wrappedValue.preset) { light in
                     Text(verbatim: light.rawValue).tag(light)
                 }
