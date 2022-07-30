@@ -174,14 +174,11 @@ struct DepartureSignal: View {
             } label: {
             }
         } label: {
-            HStack {
-                Spacer()
-                Text(lightSwitcher.signal?.rawValue ?? "---")
-                    .font(.largeTitle.bold())
-                    .foregroundColor(.primary)
-                    .animation(nil)
-                Spacer()
-            }
+            Text(lightSwitcher.signal?.rawValue ?? "---")
+                .font(.largeTitle.bold())
+                .foregroundColor(.primary)
+                .animation(nil)
+                .frame(maxWidth: .infinity, alignment: .center)
         }
 #else
         Picker(selection: signal.onChange(apply)) {
