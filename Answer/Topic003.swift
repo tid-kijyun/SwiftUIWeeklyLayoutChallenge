@@ -162,12 +162,12 @@ struct DepartureSignal: View {
     func signalPicker(signal: Binding<Signal?>, onChange apply: @escaping (Signal?) -> Void) -> some View {
 #if os(iOS)
         Menu {
-            Picker(selection: signal.onChange(apply)) {
-                Text(verbatim: "--------").tag(Signal?(nil))
-                ForEach(Signal.allCases) { signal in
-                    Text(signal.rawValue).tag(Signal?.some(signal))
+            ForEach(Signal.allCases) { signal in
+                Button {
+                    apply(signal)
+                } label: {
+                    Text(verbatim: signal.rawValue)
                 }
-            } label: {
             }
         } label: {
             Text(lightSwitcher.signal?.rawValue ?? "--------")
