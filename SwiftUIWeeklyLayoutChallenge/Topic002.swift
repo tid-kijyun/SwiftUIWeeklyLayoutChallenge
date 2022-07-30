@@ -58,7 +58,9 @@ struct VitalView: View {
             }
             .navigationTitle("バイタルデータ")
         }
+#if !os(macOS)
         .navigationViewStyle(.stack)
+#endif
     }
 
     private func vitalCell(vital: Vital) -> some View {
