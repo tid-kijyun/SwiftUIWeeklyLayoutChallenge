@@ -19,9 +19,7 @@ public struct Topic003View: View {
                 NavigationView {
                     DepartureSignal()
                 }
-#if !os(macOS)
-        .navigationViewStyle(.stack)
-#endif
+                .navigationViewStyle(.stack)
             } else {
                 DepartureSignal()
             }
