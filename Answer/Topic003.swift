@@ -165,14 +165,14 @@ struct DepartureSignal: View {
 #if os(iOS)
         Menu {
             Picker(selection: signal.onChange(apply)) {
-                Text(verbatim: "---").tag(Signal?(nil))
+                Text(verbatim: "--------").tag(Signal?(nil))
                 ForEach(Signal.allCases) { signal in
                     Text(signal.rawValue).tag(Signal?.some(signal))
                 }
             } label: {
             }
         } label: {
-            Text(lightSwitcher.signal?.rawValue ?? "---")
+            Text(lightSwitcher.signal?.rawValue ?? "--------")
                 .font(.largeTitle.bold())
                 .foregroundColor(.primary)
                 .animation(nil)
@@ -180,7 +180,7 @@ struct DepartureSignal: View {
         }
 #else
         Picker(selection: signal.onChange(apply)) {
-            Text(verbatim: "---").tag(Signal?(nil))
+            Text(verbatim: "--------").tag(Signal?(nil))
             ForEach(Signal.allCases) { signal in
                 Text(signal.rawValue).tag(Signal?.some(signal))
             }
